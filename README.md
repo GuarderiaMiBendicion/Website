@@ -10,6 +10,8 @@ This folder is ready for GitHub Pages.
 4. Under **Build and deployment**, choose **Deploy from a branch**.
 5. Select the `main` branch and `/ (root)`, then click **Save**.
 
+When updating an existing repository, replace **all** of the old website files with the files from this folder. After GitHub Pages finishes publishing, refresh the website with `Ctrl + F5` on Windows or `Command + Shift + R` on Mac.
+
 The contact form uses FormSubmit. The first submission will send a confirmation email to `childcare@guarderiamibendicion.com`. Approve it once to activate the form.
 
 ## Edit the site

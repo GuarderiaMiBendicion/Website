@@ -9,4 +9,4 @@
 .brand-logo{display:block;width:112px;height:82px;object-fit:contain}
 .image-frame{background-color:#dce8e3;background-image:url("./assets/daycare-hero.webp");background-size:cover;background-position:center}
 .footer-logo{width:96px;height:92px}
-@media(max-width:650px){.nav-wrap{height:82px}.brand-logo{width:88px;height:70px}}
+@media(max-width:650px){.nav-wrap{height:82px}.brand-logo{width:88px;height:70px}.footer-brand{display:flex}}
