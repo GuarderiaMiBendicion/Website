@@ -3,3 +3,10 @@
 @media(max-width:920px){.nav-links{display:none}.menu-toggle{display:none}.hero-grid,.intro-grid,.day-grid,.contact-card{grid-template-columns:1fr}.hero-grid{gap:55px}.hero-visual{max-width:600px;margin:auto}.care-grid{grid-template-columns:1fr 1fr}.intro-grid,.day-grid{gap:45px}.contact-card{gap:40px}.section-heading{align-items:start;flex-direction:column;gap:18px}}
 @media(max-width:650px){.shell{width:min(100% - 28px,1160px)}.nav-wrap{height:72px}.nav-wrap nav{display:none}.button-small{display:none}.hero{padding:55px 0 65px}h1{font-size:3.25rem}.hero-actions{align-items:flex-start;flex-direction:column;gap:18px}.trust-row{grid-template-columns:1fr;gap:13px;margin-top:38px}.hero-visual{padding:0 8px}.image-frame{border-radius:130px 130px 22px 22px}.hours-card{left:-4px;bottom:18px}.care-badge{width:90px;height:90px;right:-4px;top:45px;font-size:30px}.section{padding:76px 0}.intro-grid,.day-grid{gap:32px}.section-heading{margin-bottom:30px}.care-grid{grid-template-columns:1fr}.care-card{min-height:auto}.icon-bubble{margin:35px 0 22px}.contact{padding-top:25px}.contact-card{width:100%;border-radius:0;padding:58px 22px}.contact-form{padding:22px}.field-row{grid-template-columns:1fr}.footer-row{flex-direction:column;text-align:center}.footer-brand{display:none}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}}
+
+/* Official logo and resilient hero image */
+.nav-wrap{height:96px}
+.brand-logo{display:block;width:112px;height:82px;object-fit:contain}
+.image-frame{background-color:#dce8e3;background-image:url("./assets/daycare-hero.webp");background-size:cover;background-position:center}
+.footer-logo{width:96px;height:92px}
+@media(max-width:650px){.nav-wrap{height:82px}.brand-logo{width:88px;height:70px}}
